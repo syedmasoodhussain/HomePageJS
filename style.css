@@ -81,6 +81,27 @@ header ul li a {
     font-size: 1.2em;
     margin: 10px 0;
 }
+.contact{
+    color: orange;
+}
+.me{
+    color: orange;
+}
+
+
+.content h3 {
+    font-size: 5.5em;
+    color: #333; /* Color applied to h2 */
+}
+
+.content h3 span {
+    color: orange; /* Color applied to span */
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+
+
 
 
 .content button {
@@ -104,6 +125,8 @@ header ul li a {
     color: #333;
 }
 
+
+
 /* Day/Night toggle button styles */
 .dayNight {
     position: absolute;
@@ -121,6 +144,8 @@ header ul li a {
     font-size: 2em;
     color: #333; /* Specify color for icon */
 }
+
+
 
 
 /* Styles for the night mode */
@@ -148,3 +173,5 @@ header ul li a {
 .banner.night .dayNight ion-icon:nth-child(2) {
     display: block;
 }
+
+

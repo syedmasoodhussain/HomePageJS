@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    
 
     <link rel="stylesheet" href="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.css">
     <link rel="stylesheet" href="style.css">
@@ -42,7 +43,46 @@
     <ion-icon name="sunny-outline" class="hidden"></ion-icon>
 </div>
 
+<div>
+   
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
 
+<h3>Want To Know More <h3>
+
+    <span id="texts">
+        <span class="contact">Contact</span>
+        <span class="me">Me</span>
+    </span>
+    
+
+    
+    
+<form action="/submit_form" method="post">
+    <label for="name">Name:</label><br>
+    <input type="texts" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required><br><br>
+
+    <label for="query">Query:</label><br>
+    <textarea id="query" name="query" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+</div>
 
 
 
