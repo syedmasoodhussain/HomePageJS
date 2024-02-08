@@ -7,7 +7,7 @@ dayNight.addEventListener("click", () => {
     dayNight.querySelectorAll("ion-icon").forEach(icon => icon.classList.toggle("hidden"));
 });
 
-
+   
 let typingEffect = new Typed("#text", {
     strings: ["Home", "About", "Contact", "work"], // Array of strings to display
     loop: true, // Whether to loop through the strings continuously
